@@ -30,24 +30,24 @@ O projeto foi construído utilizando as seguintes tecnologias:
 
 Se quiser clonar e rodar o projeto na sua máquina, siga os passos abaixo:
 
-1. Clone este repositório:
+### Clone este repositório:
 ```bash
 git clone https://github.com/Yuan-Dias/Meu_Portfolio.git
 ```
-    Acesse a pasta do projeto:
+### Acesse a pasta do projeto:
 
 ```bash
 
 cd Meu_Portfolio
 ```
-    Instale as dependências:
+### Instale as dependências:
 
 ```bash
 
 npm install
 # ou yarn install
 ```
-    Inicie o servidor de desenvolvimento:
+### Inicie o servidor de desenvolvimento:
 
 ```bash
 
