@@ -60,10 +60,10 @@ npm run dev
 
 Fique à vontade para entrar em contato comigo:
 
-    LinkedIn: https://www.linkedin.com/in/yuan-barbosa-dias-3433802a5/
+# LinkedIn: https://www.linkedin.com/in/yuan-barbosa-dias-3433802a5/
 
-    Email: yuanbdias692@email.com
+# Email: yuanbdias692@email.com
 
-    GitHub: Yuan-Dias
+# GitHub: Yuan-Dias
 
 Feito com dedicação por Yuan Dias 
