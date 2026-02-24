@@ -1,14 +1,10 @@
 import React, { useState } from 'react';
 import { Github, Linkedin, Mail, ExternalLink, Code2, Lock, Terminal, Database, Layout, Server, CheckCircle2, X, PlayCircle, Eye } from 'lucide-react';
 
-// Exemplo se as imagens estiverem em src/assets/images:
 import imgCultivaMais from './images/cultivamais.png';
-// import imgAppMobile from './assets/images/app-mobile.png';
 import imgDeliciasThai from './images/delicias-da-thai.png';
-// import imgMatricula from './assets/images/matricula.png';
-
+import imgMatricula from './images/matricula.png';
 const imgAppMobile = "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=800&auto=format&fit=crop";
-const imgMatricula = "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800&auto=format&fit=crop";
 
 
 // --- TIPAGENS ---
