@@ -6,7 +6,7 @@ import imgDeliciasThai from './images/delicias-da-thai.png';
 import imgMatricula from './images/matricula.png';
 const imgAppMobile = "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=800&auto=format&fit=crop";
 
-import fotoPerfil from './assets/Foto_Perfil.png';
+import fotoPerfil from './assets/Foto_Perfil.jpg';
 
 // --- TIPAGENS ---
 interface SocialLinks {
