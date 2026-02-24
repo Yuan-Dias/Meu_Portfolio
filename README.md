@@ -54,7 +54,7 @@ npm install
 npm run dev
 # ou yarn dev
 ```
-    O projeto abrirá no seu navegador, geralmente em http://localhost:5173.
+#### O projeto abrirá no seu navegador, geralmente em http://localhost:5173.
 
  Contato
 
