@@ -1,22 +1,12 @@
 import React, { useState } from 'react';
 import { Github, Linkedin, Mail, ExternalLink, Code2, Lock, Terminal, Database, Layout, Server, CheckCircle2, X, PlayCircle, Eye } from 'lucide-react';
 
-// ==========================================
-// 1. IMPORTAÇÃO DAS IMAGENS (O SEGREDO ESTÁ AQUI)
-// ==========================================
-// Você precisa criar essa pasta e colocar as imagens lá.
-// Ajuste os caminhos abaixo conforme a estrutura do seu projeto!
-//
 // Exemplo se as imagens estiverem em src/assets/images:
-// import imgCultivaMais from './assets/images/cultivamais.png';
+import imgCultivaMais from './images/cultivamais.png';
 // import imgAppMobile from './assets/images/app-mobile.png';
 import imgDeliciasThai from './images/delicias-da-thai.png';
 // import imgMatricula from './assets/images/matricula.png';
 
-// COMO VOCÊ AINDA PODE ESTAR AJUSTANDO AS PASTAS, VOU USAR IMAGENS
-// DE EXEMPLO ONLINE PARA VOCÊ VER A TELA FUNCIONANDO.
-// DEPOIS, TROQUE PARA OS SEUS IMPORTS LOCAIS ACIMA!
-const imgCultivaMais = "https://images.unsplash.com/photo-1592982537447-6f2a6a0c5cdd?q=80&w=800&auto=format&fit=crop";
 const imgAppMobile = "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=800&auto=format&fit=crop";
 const imgMatricula = "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800&auto=format&fit=crop";
 
@@ -94,7 +84,7 @@ export default function Portfolio() {
             title: "Cultiva+ Gestão Agrícola",
             description: "Plataforma SaaS para o agronegócio. Implementei segurança com JWT e controle de acesso baseado em papéis (RBAC) para proteger dados sensíveis. O sistema conta com relatórios dinâmicos e painéis de controle em tempo real.",
             tech: ["Java", "Spring Security", "PostgreSQL", "React"],
-            isPrivate: true,
+            isPrivate: false,
             repoLink: null,
             demoLink: null,
             image: imgCultivaMais,
