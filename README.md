@@ -1,75 +1,69 @@
-# React + TypeScript + Vite
+Markdown
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Meu Portfólio Pessoal
 
-Currently, two official plugins are available:
+[![Deploy on Vercel](https://vercel.com/button)](https://yuandias.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> Você pode acessar o projeto online aqui: **[COLOQUE_AQUI_O_LINK_DA_VERCEL]**
 
-## React Compiler
+## Sobre o Projeto
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar meus projetos, habilidades e experiências como Desenvolvedor Full Stack (Java & Web). O foco principal foi criar uma interface limpa, moderna e responsiva, garantindo uma boa experiência de navegação em qualquer dispositivo.
 
-Note: This will impact Vite dev & build performances.
+## Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+O projeto foi construído utilizando as seguintes tecnologias:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* **[React](https://reactjs.org/)** (com Vite para build rápido)
+* **[TypeScript](https://www.typescriptlang.org/)** (para tipagem estática e maior segurança no código)
+* **[Tailwind CSS](https://tailwindcss.com/)** (para estilização rápida e responsiva)
+* **[Lucide React](https://lucide.dev/)** (biblioteca de ícones)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Funcionalidades
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* **Design Responsivo:** Adaptado para funcionar perfeitamente em celulares, tablets e desktops.
+* **Listagem de Projetos:** Cards interativos detalhando os principais projetos desenvolvidos.
+* **Modal de Detalhes:** Visualização aprofundada de cada projeto com links para o código fonte e deploy.
+* **Integração com Vídeos:** Suporte a vídeos de demonstração embutidos (YouTube) para mostrar o software em funcionamento.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Como rodar este projeto localmente
+
+Se quiser clonar e rodar o projeto na sua máquina, siga os passos abaixo:
+
+1. Clone este repositório:
+```bash
+git clone https://github.com/Yuan-Dias/Meu_Portfolio.git
 ```
+    Acesse a pasta do projeto:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+```bash
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+cd Meu_Portfolio
 ```
+    Instale as dependências:
+
+```bash
+
+npm install
+# ou yarn install
+```
+    Inicie o servidor de desenvolvimento:
+
+```bash
+
+npm run dev
+# ou yarn dev
+```
+    O projeto abrirá no seu navegador, geralmente em http://localhost:5173.
+
+ Contato
+
+Fique à vontade para entrar em contato comigo:
+
+    LinkedIn: https://www.linkedin.com/in/yuan-barbosa-dias-3433802a5/
+
+    Email: yuanbdias692@email.com
+
+    GitHub: Yuan-Dias
+
+Feito com dedicação por Yuan Dias 
