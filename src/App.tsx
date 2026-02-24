@@ -232,7 +232,7 @@ export default function Portfolio() {
 
                 <footer className="border-t border-slate-900 bg-slate-950/50 backdrop-blur-sm py-12 text-center flex flex-col items-center gap-4">
                     <p className="text-slate-200 font-medium">{personalInfo.name}</p>
-                    <p className="text-slate-600 text-sm">Engenharia de Software · {new Date().getFullYear()}</p>
+                    <p className="text-slate-600 text-sm">Desenvolvedor Backend | Java & Web · {new Date().getFullYear()}</p>
                 </footer>
             </div>
 
