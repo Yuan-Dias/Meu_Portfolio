@@ -6,6 +6,7 @@ import imgDeliciasThai from './images/delicias-da-thai.png';
 import imgMatricula from './images/matricula.png';
 const imgAppMobile = "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=800&auto=format&fit=crop";
 
+import fotoPerfil from './assets/Foto_Perfil.png';
 
 // --- TIPAGENS ---
 interface SocialLinks {
@@ -171,7 +172,7 @@ export default function Portfolio() {
                         <div className="relative group">
                             <div className="w-40 h-40 md:w-64 md:h-64 rounded-full md:rounded-2xl overflow-hidden border-2 border-slate-800 shadow-2xl shadow-cyan-900/20 bg-slate-800 relative z-10">
                                 <img
-                                    src="https://github.com/Yuan-Dias.png"
+                                    src={fotoPerfil}
                                     alt="Yuan Dias"
                                     className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity"
                                     onError={(e) => {
@@ -248,9 +249,6 @@ export default function Portfolio() {
 
 // ==========================================
 // COMPONENTES (Card e Modal)
-// Eu tirei a parte que escondia o erro,
-// agora você VAI ver a imagem, nem que seja quebrada,
-// para facilitar o debug se precisar no futuro.
 // ==========================================
 
 function ProjectCard({ project, onClick }: { project: Project, onClick: () => void }) {
@@ -265,7 +263,6 @@ function ProjectCard({ project, onClick }: { project: Project, onClick: () => vo
                     src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover absolute inset-0 z-10 opacity-70 group-hover:opacity-40 group-hover:scale-105 transition-all duration-500"
-                    // Removi o onError que escondia a imagem para você poder ver se ela quebrar de novo
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-100 z-10" />
 
