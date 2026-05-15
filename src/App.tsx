@@ -3,7 +3,6 @@ import { Github, Linkedin, Mail, ExternalLink, Code2, Lock, Terminal, Database, 
 
 import imgCultivaMais from './images/cultivamais.png';
 import imgDeliciasThai from './images/delicias-da-thai.png';
-import imgMatricula from './images/matricula.png';
 const imgAppMobile = "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=800&auto=format&fit=crop";
 
 import fotoPerfil from './assets/Foto_Perfil.jpg';
@@ -77,7 +76,7 @@ export default function Portfolio() {
     // ==========================================
     const projects: Project[] = [
         {
-            id: 4,
+            id: 3,
             title: "Cultiva+ Gestão Agrícola",
             description: "Plataforma SaaS para o agronegócio. Implementei segurança com JWT e controle de acesso baseado em papéis (RBAC) para proteger dados sensíveis. O sistema conta com relatórios dinâmicos e painéis de controle em tempo real.",
             tech: ["Java", "Spring Security", "PostgreSQL", "React"],
@@ -88,7 +87,7 @@ export default function Portfolio() {
             video: "https://youtu.be/VloBlVQl58w"
         },
         {
-            id: 3,
+            id: 2,
             title: "Aplicação Mobile Social",
             description: "App baseado em geolocalização. Desenvolvi a arquitetura serverless no Google Cloud, garantindo latência mínima para interações em tempo real.",
             tech: ["React Native", "Firebase", "TypeScript", "Google Cloud"],
@@ -98,7 +97,7 @@ export default function Portfolio() {
             image: imgAppMobile
         },
         {
-            id: 2,
+            id: 1,
             title: "Delícias da Thai",
             description: "Catálogo digital (PWA) com painel administrativo seguro. Permite à loja gerenciar o cardápio em tempo real e redireciona os pedidos dos clientes direto para o WhatsApp.",
             tech: ["React", "TypeScript", "Tailwind CSS", "Firebase"],
@@ -108,7 +107,7 @@ export default function Portfolio() {
             image: imgDeliciasThai,
             video: "https://youtu.be/Uj-6o7bNdF0"
         },
-        {
+        /*{
             id: 1,
             title: "Sistema de Matrícula Acadêmica",
             description: "Plataforma de gestão acadêmica com diferentes níveis de acesso (RBAC). O sistema orquestra o fluxo completo de uma instituição: administradores estruturam cursos e disciplinas, professores gerenciam notas, e alunos realizam matrículas. Destaque para a modelagem relacional criada para suportar essas regras de negócio de forma segura.",
@@ -117,7 +116,7 @@ export default function Portfolio() {
             repoLink: "https://github.com/Yuan-Dias/Matricula.git",
             demoLink: null,
             image: imgMatricula
-        }
+        }*/
     ];
 
     React.useEffect(() => {
